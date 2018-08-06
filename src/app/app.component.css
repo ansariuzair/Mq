@@ -1,0 +1,33 @@
+ .icon-bar {
+    width: 100%;
+    /* background-image: url(); */
+    background-color: #555;
+    overflow: auto;
+    outline: #4CAF50;
+    outline-color: #555;
+    outline-style: solid;
+    outline-width: 3px;
+}
+.icon-bar a {
+    float: left;
+    width: 14%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+}
+.change .icon-bar a:hover {
+        background-color: rgba(231, 235, 14, 0.767);
+    
+}
+.active {
+    background-color: blueviolet !important;
+}
+
+hr{
+    color: gray;
+    font-size-adjust: initial;
+    font-optical-sizing: 2px;
+    border: 6px inset lightcyan
+
+}

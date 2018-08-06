@@ -1,0 +1,21 @@
+<script>
+    function cll(x) {
+    x.classList.toggle("change");
+    }
+</script>
+<hr>
+<nav class="icon-bar">
+ <a routerLink="/home" onclick="cll(this)">Home</a>
+<a routerLink="/gallery" onclick="cll(this)">Gallery</a>
+<a routerLink="/tools" onclick="cll(this)">Tools</a>
+<a routerLink="/news" onclick="cll(this)">News</a>
+<a routerLink="/contact" onclick="cll(this)">Contact</a>
+<a routerLink="/about" onclick="cll(this)">About</a>
+<a routerLink="/login" onclick="cll(this)">Login</a>
+</nav>
+<hr>
+<router-outlet></router-outlet>
+<hr>
+<H1>
+Footer Section
+</H1>
